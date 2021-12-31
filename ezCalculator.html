@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng máy tính</title>
+</head>
+<body>
+    <h1><b>Calculator</b></h1><br>
+    <input type="number" name="" id="firstNum">
+    <input type="number" name="" id="secondNum"><br>
+    <button onclick="plus()">Addition(+)</button>
+    <button onclick="minus()">Subtraction(-)</button>
+    <button onclick="multiply()">Multiplication(*)</button>
+    <button onclick="divide()">Division(/)</button>
+    
+    <Script>
+        function plus() {
+            let firstNumber = document.getElementById("firstNum").value;
+            console.log(firstNumber);
+            let secondNumber = document.getElementById("secondNum").value;
+            console.log(secondNumber);
+            let result = Number(firstNumber) + Number(secondNumber);
+            console.log(result);
+            alert(result);
+        }
+        function minus() {
+            let firstNumber = document.getElementById("firstNum").value;
+            console.log(firstNumber);
+            let secondNumber = document.getElementById("secondNum").value;
+            console.log(secondNumber);
+            let result = Number(firstNumber) - Number(secondNumber);
+            console.log(result);
+            alert(result);
+        }
+        function multiply() {
+            let firstNumber = document.getElementById("firstNum").value;
+            console.log(firstNumber);
+            let secondNumber = document.getElementById("secondNum").value;
+            console.log(secondNumber);
+            let result = Number(firstNumber) * Number(secondNumber);
+            console.log(result);
+            alert(result);
+        }
+        function divide() {
+            let firstNumber = document.getElementById("firstNum").value;
+            console.log(firstNumber);
+            let secondNumber = document.getElementById("secondNum").value;
+            console.log(secondNumber);
+            let result = Number(firstNumber) / Number(secondNumber);
+            console.log(result);
+            alert(result);
+        }
+    </Script>
+</body>
+</html>
